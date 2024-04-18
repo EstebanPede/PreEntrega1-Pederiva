@@ -34,7 +34,7 @@ function menu() {
           </Nav>
           <Nav>
             <Nav.Item>
-              <CartWidget count={0} /> {/* Añade el componente CartWidget aquí */}
+              <CartWidget count={0} />
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
