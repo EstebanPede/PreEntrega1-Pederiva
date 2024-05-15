@@ -1,0 +1,47 @@
+[
+  {
+    "id":1,
+    "titulo": "Raja de Abrir",
+    "descripcion": "Raja de abrir linea rpt, doble vidrio hermetico.",
+    "categoria": "abrir",
+    "imagen": "../img/abrir.jpg",
+    "precio": 1500,
+    "stock": 33
+},
+{
+  "id":2,
+  "titulo": " Ventana Corrediza herrero",
+  "descripcion": "Ventana corrediza linea europa, vidrio simple.",
+  "categoria":"corrediza",
+  "imagen": "../img/abertura.jpg",
+  "precio": 10000,
+  "stock": 10
+},
+{
+  "id":3,
+  "titulo": "Ventana Corrediza modena",
+  "descripcion": "Ventana corrediza linea Modena, vidrio doble. incluye cierres de bipunto",
+  "categoria": "corrediza",
+  "imagen":"../img/corrediza.jpg",
+  "precio": 50000,
+  "stock": 34
+},
+{
+  "id":4,
+  "titulo": "Banderola",
+  "descripcion": "Banderola lina europa, vidrio simple. Ideal para entornos pequeños.",
+  "categoria":"banderola",
+  "imagen":"../img/g1.jpg",
+  "precio": 45346,
+  "stock": 10
+},
+{
+  "id":5,
+  "titulo": "Corrediza",
+  "descripcion": "Ventana corrediza linea RPT, vidrio doble hermetico con camara de 14mm. incluye cierres de bipunto",
+  "categoria": "corrediza",
+  "imagen":"../img/g2.jpg",
+  "precio": 76543,
+  "stock": 34
+}
+  ]

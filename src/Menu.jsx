@@ -11,25 +11,22 @@ function menu() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
           <Image src={logo} alt="Logo" style={{ height: '30px', marginRight: '10px' }} />
           Aberturas Oeste
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#link">Lineas</Nav.Link>
-            <NavDropdown title="Nosotros" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Quienes Somos</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Galeria
+            <Nav.Link href="/">Inicio</Nav.Link>
+            <Nav.Link href="/contacto">Contacto</Nav.Link>
+            <NavDropdown title="Productos" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/productos/corrediza">Corrediza</NavDropdown.Item>
+              <NavDropdown.Item href="/productos/abrir">
+                Abrir
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Contacto</NavDropdown.Item>
+              <NavDropdown.Item href="/productos/banderola">Banderola</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Ubicacion
-              </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
