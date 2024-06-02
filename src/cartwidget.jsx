@@ -1,16 +1,22 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
-import Badge from 'react-bootstrap/Badge';
+import React, { useContext } from 'react'
+import { Link } from 'react-router-dom'
+import { CartContext } from './context/CartContext';
+import carritoimg from './assets/carrito.jpg';
 
-function CartWidget({ count }) {
+const CartWidget = () => {
+
+    const { cantidadEnCarrito } = useContext(CartContext);
+
   return (
     <div>
-      <FontAwesomeIcon icon={faShoppingCart} size="lg" style={{ marginLeft: '10px', position: 'relative', zIndex: 1 }} />
-      {count > 0 && <Badge bg="danger" style={{ position: 'absolute', top: '-10px', right: '-10px', zIndex: 2 }}>{count}</Badge>}
+        <Link className="menu-link" to="/carrito">
+        <img className="cart-icon" src={carritoimg} alt="Carrito" />
+            <span className=" numerito">{cantidadEnCarrito()}</span>
+        </Link>
     </div>
-  );
+  )
 }
 
-export default CartWidget;
+export default CartWidget
+
 

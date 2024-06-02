@@ -109,4 +109,19 @@
     margin-top: 1rem;
 }
 
-
+.item-count {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.agregar-al-carrito, .enviar {
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.cart-icon {
+    width: 24px;
+    height: 24px;
+  }

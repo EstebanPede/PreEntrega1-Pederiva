@@ -4,13 +4,16 @@ import Menu from './Menu' ;
 import Contacto from './Contacto';
 import './menu.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
+import Carrito from './Carrito';
+import { CartProvider } from './context/CartContext';
+import Checkout from "./Checkout";
 
 
 function App() {
 
   return (
-   <div>
+<div>
+  <CartProvider>
     <BrowserRouter>
 
       <Menu />
@@ -20,9 +23,12 @@ function App() {
             <Route path="/item/:id" element={<ItemDetailContainer/>}/>
             <Route path="/productos/:categoria" element={<ItemListContainer/>}/>
             <Route path="/contacto" element={<Contacto/>}/>
+            <Route path="/carrito" element={<Carrito />}/>
+            <Route path="/checkout" element={<Checkout />}/>
       </Routes>
     </BrowserRouter>
-   </div>  
+  </CartProvider>
+</div>  
   );
 }
 

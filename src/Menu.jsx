@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import logo from './assets/logo.jpg';
-import CartWidget from './cartwidget.jsx';
+import CartWidget from './CartWidget.jsx';
 
 function menu() {
   return (
@@ -31,7 +31,7 @@ function menu() {
           </Nav>
           <Nav>
             <Nav.Item>
-              <CartWidget count={0} />
+              <CartWidget/>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
