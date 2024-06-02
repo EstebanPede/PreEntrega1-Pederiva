@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'react-bootstrap/Image';
 import logo from './assets/logo.jpg';
-import CartWidget from './CartWidget.jsx';
+import CartWidget from './CartWidget';
 
 function menu() {
   return (
