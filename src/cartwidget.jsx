@@ -13,6 +13,9 @@ const CartWidget = () => {
         <img className="cart-icono" src={carritoImage} alt="Carrito" />
             <span className="numerito">{cantidadEnCarrito()}</span>
         </Link>
+        {cantidadEnCarrito() > 0 && (
+                <Link to="/checkout" className="btn btn-success mt-2">Finalizar compra</Link>
+            )}
     </div>
   )
 }

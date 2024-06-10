@@ -1,8 +1,12 @@
-# React + Vite
+# Curso CoderHouse - Reacts JS 
+## Proyecto Final - Aberturas Oeste
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto para el curso de CoderHouse, que se trata de un **e commerce** de una fabrica de aberturas de la zona oeste de Buenos Aires.
 
-Currently, two official plugins are available:
+<img src="img/inicio.jpg" width=100%>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Detalle
+Donde cada producto tiene su propia ventana con sus características
+<img src="img/detalle.jpg" width=100%>
+
+### Esteban Pederiva
